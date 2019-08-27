@@ -1,0 +1,33 @@
+{
+  "name": "star-wars-crawler",
+  "version": "1.0.0",
+  "description": "A web crawler to extract star wars dialogs.",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sasirekha3/star-wars-crawler.git"
+  },
+  "keywords": [
+    "star",
+    "wars",
+    "web",
+    "crawler",
+    "search",
+    "dialog"
+  ],
+  "author": "Sasirekha Kambhampaty",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sasirekha3/star-wars-crawler/issues"
+  },
+  "homepage": "https://github.com/sasirekha3/star-wars-crawler#readme",
+  "dependencies": {
+    "axios": "^0.19.0",
+    "cheerio": "^1.0.0-rc.3",
+    "express": "^4.17.1"
+  }
+}
